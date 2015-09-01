@@ -1,0 +1,44 @@
+// _main
+
+// GLOBAL
+
+h1 { font-size: em(30); }
+h2 { font-size: em(20); }
+
+// CONTENT
+
+// START EXAMPLE STYLES
+.wrapper{
+	@include outer-container;
+}
+
+.content-container{
+	@include span-columns(8);
+	@include shift(2);
+
+	@include media($mobile) {
+		@include span-columns(10);
+		@include shift(1);
+	}
+}
+
+.content{
+	margin-bottom: 20px;
+}
+
+.logo{
+    width: 250px;
+    height: 83px;
+    @include retina-image('../images/logo', 250px 83px);
+}
+
+#application{
+	padding: 10px;
+	border: 1px dashed #aaa;
+}
+// END EXAMPLE STYLES
+
+
+
+
+
