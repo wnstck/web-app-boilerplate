@@ -3,10 +3,11 @@
 ### Stack
 
 + Tools
+	+ [NPM](https://www.npmjs.com/) for package management
+	+ [Bower](http://bower.io/) for more package management
 	+ [Grunt](http://gruntjs.com/) for task running
 	+ [Browserify](http://browserify.org/) for js modularity with dependencies
 	+ [Mocha](https://mochajs.org/) for tests
-	+ [Bower](http://bower.io/) for package management
 + JS
 	+ [Backbone](http://backbonejs.org/) for app structure
 	+ [Marionette](http://marionettejs.com/) for adding power to Backbone
